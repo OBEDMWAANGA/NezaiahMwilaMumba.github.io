@@ -61,6 +61,7 @@ p {
 .cta:hover {
 	color: white;
 	background-color: crimson;
+	cursor: text;
 }
 .brand h1 {
 	font-size: 3rem;
@@ -200,7 +201,7 @@ p {
 
 /* Hero Section */
 #hero {
-	background-image: url(./img/n3.jpg);
+	background-image: url(./img/n11.jpg);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
