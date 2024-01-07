@@ -23,26 +23,5 @@ menu_item.forEach((item) => {
 		mobile_menu.classList.toggle('active');
 	});
 
-
-	document.getElementById('downloadButton').addEventListener('click', function () {
-		// Replace 'path/to/your/resume.pdf' with the actual path to your PDF file
-		var resumePath = 'Resume Nezaiah Mwila Mumba.pdf';
-	
-		// Create an anchor element
-		var link = document.createElement('a');
-		link.href = resumePath;
-	
-		// Set the download attribute with the desired file name
-		link.download = 'your_resume.pdf';
-	
-		// Append the anchor to the body (required for Firefox)
-		document.body.appendChild(link);
-	
-		// Trigger a click on the anchor element to start the download
-		link.click();
-	
-		// Remove the anchor from the body
-		document.body.removeChild(link);
-	  });
 	
 });
