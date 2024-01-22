@@ -61,7 +61,7 @@ p {
 .cta:hover {
 	color: white;
 	background-color: crimson;
-	cursor: text;
+	cursor: pointer;
 }
 .brand h1 {
 	font-size: 3rem;
